@@ -10,7 +10,7 @@ const s3 = new S3Client({ region: REGION });
 const upload = multer({
   storage: multerS3({
     s3: s3,
-    bucket: 'some-bucket',
+    bucket: 'demo-jehyun-s3-bucket-2021',
     metadata: function (req, file, cb) {
       cb(null, {fieldName: file.fieldname});
     },
