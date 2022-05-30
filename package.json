@@ -1,24 +1,26 @@
 {
-  "name": "aws-s3-upload-route",
+  "name": "aws-s3-template",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/congmul/aws-s3-upload-route.git"
+    "url": "git+https://github.com/congmul/aws-s3-template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/congmul/aws-s3-upload-route/issues"
+    "url": "https://github.com/congmul/aws-s3-template/issues"
   },
-  "homepage": "https://github.com/congmul/aws-s3-upload-route#readme",
+  "homepage": "https://github.com/congmul/aws-s3-template#readme",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.100.0",
     "express": "^4.18.1"
   }
 }
