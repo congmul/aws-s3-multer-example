@@ -1,8 +1,6 @@
-document.getElementById('img-input-form').onchange = function(event){
+document.getElementById('img-input-form').onchange = async function(event){
     document.getElementById('avatar').innerHTML = `
-    <img src=${URL.createObjectURL(event.target.files[0])} width="100%" />
+    <img src=${URL.createObjectURL(event.target.files[0])} width="200px" />
     <p>Preview</p>
-    <p>Uploading....</p>
     `
-    document.getElementById("profile-form").submit();
 };

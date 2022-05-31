@@ -32,3 +32,8 @@
  1. Visit Security credentials TAB in Identity and Access Management(IAM) 
  2. Create access key
  3. Get access key ID and secret key
+
+## Enable ACLs
+ 1. Permissions TAB in a Bucket
+ 2. Block public access(butket settings) -> uncheck all
+ 3. Object Owenership -> Select ALCs enabled and Object writer
