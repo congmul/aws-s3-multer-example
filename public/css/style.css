@@ -1,14 +1,22 @@
 .form-wrapper{
     padding: 24px;
 }
-
+#img-input-form{
+    margin: 24px;
+}
 .input-form{
     margin: 24px;
 }
-
+#avatar {
+    height: 200px;
+}
 #avatar img{
     border-radius: 50%;
     border: 1px solid black;
     width: 200px;
     height: 200px;
+}
+
+#saveBtn{
+    margin-left: 24px;
 }
