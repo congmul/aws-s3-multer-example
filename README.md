@@ -37,3 +37,4 @@
  1. Permissions TAB in a Bucket
  2. Block public access(butket settings) -> uncheck all
  3. Object Owenership -> Select ALCs enabled and Object writer
+ 
